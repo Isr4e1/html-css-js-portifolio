@@ -30,7 +30,7 @@ a,
 
 nav,
 .nav-links {
-  display: flex;
+  display: fixed;
 }
 
 nav {
