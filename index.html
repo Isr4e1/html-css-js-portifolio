@@ -1,26 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LY64FQ6ZL8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-LY64FQ6ZL8');
-</script>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="topic.ico" type="image/x-icon">
-    <title>Israel Aquino</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
+    <head>
+      <!-- Google Tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-LY64FQ6ZL8"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-LY64FQ6ZL8');
+      </script>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="topic.ico" type="image/x-icon" />
+      <title>Israel Aquino</title>
+      <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="mediaqueries.css" />
+    
+      <!-- JavaScript para alternar o idioma -->
+      <script src="script.js" defer></script>
+    </head>    
   </head>
   <body>
     <nav id="desktop-nav">
       <div class="logo">Israel Aquino</div>
+      <div>
+        <ul class="nav-links">
+          <li><a id="nav-about" href="#about">About</a></li>
+          <li><a id="nav-experience" href="#experience">Experience</a></li>
+          <li><a id="nav-projects" href="#projects">Projects</a></li>
+          <li><a id="nav-contact" href="#contact">Contact</a></li>
+          <li>
+            <button onclick="setLanguageEnglish()">English</button>
+          </li>
+          <li>
+            <button onclick="setLanguagePortuguese()">Português</button>
+          </li>
+        </ul>        
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>

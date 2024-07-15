@@ -1,0 +1,27 @@
+{
+    "nav_about": "About",
+    "nav_experience": "Experience",
+    "nav_projects": "Projects",
+    "nav_contact": "Contact",
+    "section_hello": "Hello, I'm",
+    "section_title": "Israel Aquino",
+    "section_subtitle": "Product Designer - UX/UI Designer - Frontend Developer",
+    "btn_cv": "Download CV",
+    "btn_contact": "Contact Info",
+    "about_title": "About Me",
+    "about_experience": "Experience",
+    "about_education": "Education",
+    "about_text": "With 4 years of solid experience in the technology area, I am a professional passionate about innovation and solving complex challenges...",
+    "explore_experience": "Explore My Experience",
+    "exp_design": "Design",
+    "exp_frontend": "Frontend Development",
+    "exp_design_tools": "Adobe Photoshop, Adobe Illustrator, Adobe Premiere, Figma, Notion, Miro",
+    "exp_frontend_tools": "HTML, Node JS, TypeScript, ReactJS, Angular, CSS, JS, Git",
+    "browse_projects": "Browse My Recent Projects",
+    "projects_title": "Projects",
+    "contact_title": "Contact Me",
+    "contact_get_in_touch": "Get in Touch",
+    "contact_email": "falecomoisrael@gmail.com",
+    "contact_linkedin": "LinkedIn"
+  }
+  
